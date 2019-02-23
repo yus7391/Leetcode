@@ -24,12 +24,16 @@ class Solution {
         }
         return null;
     }
+
+    private static int[] input_nums = new int[]{2, 7, 1, 3};
+
+    private static int input_target = 9;
+
+    private static int[] output_nums = new int[]{0, 1};
     
     public static void main(String[] args){
         Solution solution = new Solution();
-        int[] nums = new int[]{2, 7, 1, 3};
-        int target = 9;
-        int[] result = solution.twoSum(nums, target);
-        Assert.assertArrayEquals(new int[]{0, 1}, result);
+        int[] result = solution.twoSum(input_nums, input_target);
+        Assert.assertArrayEquals(output_nums, result);
     }
 }
