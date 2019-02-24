@@ -1,0 +1,10 @@
+
+/.idea/
+.classpath
+.settings
+.project
+.gitignore
+/**/*.iml
+/*/target/
+/factoring-channel-server/src/main/resources/application.properties
+/factoring-channel-server/src/main/resources/mybatisGengerator/generatorConfig.xml
