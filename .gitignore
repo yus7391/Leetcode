@@ -5,6 +5,6 @@
 .project
 .gitignore
 /**/*.iml
-/*/target/
+/target/
 /factoring-channel-server/src/main/resources/application.properties
 /factoring-channel-server/src/main/resources/mybatisGengerator/generatorConfig.xml
